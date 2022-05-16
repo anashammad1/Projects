@@ -1,0 +1,39 @@
+/* Variables */
+:root {
+--bgColor: #2596BE;
+} 
+
+body {
+    background-color: var(--bgColor);
+    text-align: center;
+}
+h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    color: white;
+    margin-top: 120px;
+}
+p {
+    font-family: Roboto;
+    font-size: 40px;
+    color: white;
+    margin-top: 60;
+}
+Button {
+    background-color: var(--bgColor);
+    border: solid 2px white;
+    border-radius: 5%;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: Roboto;
+    height: 60px;
+    width: 180px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    transition-duration: 1s;
+}
+Button:hover{
+    background-color: white;
+    color: var(--bgColor);
+}
